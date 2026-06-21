@@ -52,6 +52,11 @@ img {
   align-items: flex-start;
 }
 
+.brand-home-link {
+  display: inline-flex;
+  text-decoration: none;
+}
+
 .brand-logo {
   width: 110px;
   height: auto;
