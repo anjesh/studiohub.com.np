@@ -34,10 +34,6 @@ if (pageShell && category) {
                   <p class="section-label">Project ${String(index + 1).padStart(2, "0")}</p>
                   <dl>
                     <div>
-                      <dt>Client</dt>
-                      <dd>${project.client}</dd>
-                    </div>
-                    <div>
                       <dt>Location</dt>
                       <dd>${project.location}</dd>
                     </div>
@@ -52,7 +48,7 @@ if (pageShell && category) {
                   </dl>
                 </div>
                 <figure class="project-lead">
-                  <img src="${leadImage}" alt="${project.title} for ${project.client}" />
+                  <img src="${leadImage}" alt="${project.title}" />
                 </figure>
               </div>
               ${
@@ -67,9 +63,9 @@ if (pageShell && category) {
                                 class="project-thumb"
                                 type="button"
                                 data-full-src="${image}"
-                                data-caption="${project.title} for ${project.client}, ${project.location}"
+                                data-caption="${project.title}, ${project.location}"
                               >
-                                <img src="${image}" alt="${project.title} supporting view ${imageIndex + 1} for ${project.client}" />
+                                <img src="${image}" alt="${project.title} supporting view ${imageIndex + 1}" />
                               </button>
                             </figure>
                           `,
