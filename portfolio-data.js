@@ -269,7 +269,7 @@ const portfolioCategories = {
       {
         title: "Interior Residence",
         client: "Ms. Biplavi Tripathi",
-        location: "Chaisipati, Lalitpur",
+        location: "Bhaisipati, Lalitpur",
         date: "2023",
         scope: ["Construction Drawing", "Construction and Supervision"],
         images: [

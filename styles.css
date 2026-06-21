@@ -168,6 +168,7 @@ img {
   margin-top: 28px;
   background: rgba(251, 248, 242, 0.8);
   border: 1px solid rgba(31, 37, 32, 0.08);
+  border-radius: 6px;
   box-shadow: var(--shadow);
 }
 
@@ -222,6 +223,7 @@ img {
   height: 100%;
   max-height: 680px;
   object-fit: cover;
+  border-radius: 10px;
 }
 
 .section-heading {
@@ -248,6 +250,7 @@ img {
 
 .category-card {
   border: 1px solid var(--rule);
+  border-radius: 6px;
   background: linear-gradient(180deg, rgba(255, 255, 255, 0.6), rgba(224, 234, 223, 0.55));
 }
 
@@ -284,6 +287,7 @@ img {
   width: 100%;
   height: 180px;
   object-fit: cover;
+  border-radius: 8px;
 }
 
 .site-footer {
