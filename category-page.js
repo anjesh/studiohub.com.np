@@ -24,26 +24,41 @@ if (pageShell && category) {
           const [leadImage, ...galleryImages] = project.images;
           const galleryClass =
             galleryImages.length <= 2 ? "project-gallery compact" : "project-gallery";
+          const metaItems = [
+            project.location
+              ? `
+                <div>
+                  <dt>Location</dt>
+                  <dd>${project.location}</dd>
+                </div>
+              `
+              : "",
+            project.date
+              ? `
+                <div>
+                  <dt>Date</dt>
+                  <dd>${project.date}</dd>
+                </div>
+              `
+              : "",
+            project.scope?.length
+              ? `
+                <div>
+                  <dt>Scope</dt>
+                  <dd>${project.scope.join(", ")}</dd>
+                </div>
+              `
+              : "",
+          ]
+            .filter(Boolean)
+            .join("");
 
           return `
             <article class="project-section">
               <div class="project-intro">
                 <div class="project-meta">
                   <p class="section-label">Project ${String(index + 1).padStart(2, "0")}</p>
-                  <dl>
-                    <div>
-                      <dt>Location</dt>
-                      <dd>${project.location}</dd>
-                    </div>
-                    <div>
-                      <dt>Date</dt>
-                      <dd>${project.date}</dd>
-                    </div>
-                    <div>
-                      <dt>Scope</dt>
-                      <dd>${project.scope.join(", ")}</dd>
-                    </div>
-                  </dl>
+                  <dl>${metaItems}</dl>
                 </div>
                 <figure class="project-lead">
                   <img src="${leadImage}" alt="${project.title}" />
