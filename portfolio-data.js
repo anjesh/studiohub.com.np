@@ -2,7 +2,7 @@ const portfolioCategories = {
   residence: {
     title: "Residence",
     label: "Residential Portfolio",
-    heroImage: "../extracted/images/studio-hub-021.jpg",
+    heroImage: "./assets/residence/studio-hub-021.jpg",
     heroAlt: "Residential facade by Studio Hub",
     heroText:
       "Residential spaces designed through facade studies, working drawings, and built-site coordination.",
@@ -17,7 +17,7 @@ const portfolioCategories = {
         location: "Kirtipur",
         date: "2021",
         scope: ["Architectural Drawing", "Municipal Drawing", "Working Drawing"],
-        images: ["../extracted/images/studio-hub-009.jpg"],
+        images: ["./assets/residence/studio-hub-009.jpg"],
       },
       {
         title: "Residence",
@@ -25,7 +25,7 @@ const portfolioCategories = {
         location: "Bhaktapur",
         date: "2021",
         scope: ["Architectural Drawing", "Municipal Drawing", "Working Drawing"],
-        images: ["../extracted/images/studio-hub-007.jpg"],
+        images: ["./assets/residence/studio-hub-007.jpg"],
       },
       {
         title: "Residence",
@@ -34,9 +34,9 @@ const portfolioCategories = {
         date: "2021",
         scope: ["Architectural Drawing", "Municipal Drawing", "Working Drawing"],
         images: [
-          "../extracted/images/studio-hub-006.jpg",
-          "../extracted/images/studio-hub-008.jpg",
-          "../extracted/images/studio-hub-010.jpg",
+          "./assets/residence/studio-hub-006.jpg",
+          "./assets/residence/studio-hub-008.jpg",
+          "./assets/residence/studio-hub-010.jpg",
         ],
       },
       {
@@ -46,8 +46,8 @@ const portfolioCategories = {
         date: "2021",
         scope: ["Architectural Drawing", "Municipal Drawing", "Working Drawing"],
         images: [
-          "../extracted/images/studio-hub-013.jpg",
-          "../extracted/images/studio-hub-016.jpg",
+          "./assets/residence/studio-hub-013.jpg",
+          "./assets/residence/studio-hub-016.jpg",
         ],
       },
       {
@@ -62,8 +62,8 @@ const portfolioCategories = {
           "Working Drawing",
         ],
         images: [
-          "../extracted/images/studio-hub-012.jpg",
-          "../extracted/images/studio-hub-017.jpg",
+          "./assets/residence/studio-hub-012.jpg",
+          "./assets/residence/studio-hub-017.jpg",
         ],
       },
       {
@@ -78,8 +78,8 @@ const portfolioCategories = {
           "Complete Supervision",
         ],
         images: [
-          "../extracted/images/studio-hub-014.jpg",
-          "../extracted/images/studio-hub-015.jpg",
+          "./assets/residence/studio-hub-014.jpg",
+          "./assets/residence/studio-hub-015.jpg",
         ],
       },
       {
@@ -88,7 +88,7 @@ const portfolioCategories = {
         location: "Babarmahal, Kathmandu",
         date: "2023",
         scope: ["Construction and Supervision"],
-        images: ["../extracted/images/studio-hub-024.jpg"],
+        images: ["./assets/residence/studio-hub-024.jpg"],
       },
       {
         title: "Residence",
@@ -97,8 +97,8 @@ const portfolioCategories = {
         date: "2023",
         scope: ["Architectural Drawing", "Working Drawing"],
         images: [
-          "../extracted/images/studio-hub-019.jpg",
-          "../extracted/images/studio-hub-020.jpg",
+          "./assets/residence/studio-hub-019.jpg",
+          "./assets/residence/studio-hub-020.jpg",
         ],
       },
       {
@@ -113,9 +113,9 @@ const portfolioCategories = {
           "Site Supervision",
         ],
         images: [
-          "../extracted/images/studio-hub-021.jpg",
-          "../extracted/images/studio-hub-022.jpg",
-          "../extracted/images/studio-hub-023.jpg",
+          "./assets/residence/studio-hub-021.jpg",
+          "./assets/residence/studio-hub-022.jpg",
+          "./assets/residence/studio-hub-023.jpg",
         ],
       },
     ],
@@ -123,7 +123,7 @@ const portfolioCategories = {
   hotel: {
     title: "Hotel",
     label: "Hospitality Portfolio",
-    heroImage: "../extracted/images/studio-hub-026.jpg",
+    heroImage: "./assets/hotel/studio-hub-026.jpg",
     heroAlt: "Hotel exterior by Studio Hub",
     heroText:
       "Hospitality projects shaped through exterior identity, lobby character, and guest-room atmosphere.",
@@ -144,10 +144,10 @@ const portfolioCategories = {
           "Municipal Drawing",
         ],
         images: [
-          "../extracted/images/studio-hub-026.jpg",
-          "../extracted/images/studio-hub-028.jpg",
-          "../extracted/images/studio-hub-029.jpg",
-          "../extracted/images/studio-hub-030.jpg",
+          "./assets/hotel/studio-hub-026.jpg",
+          "./assets/hotel/studio-hub-028.jpg",
+          "./assets/hotel/studio-hub-029.jpg",
+          "./assets/hotel/studio-hub-030.jpg",
         ],
       },
       {
@@ -157,8 +157,8 @@ const portfolioCategories = {
         date: "2017",
         scope: ["Architectural Drawing", "Working Drawing", "Municipal Drawing"],
         images: [
-          "../extracted/images/studio-hub-027.jpg",
-          "../extracted/images/studio-hub-031.jpg",
+          "./assets/hotel/studio-hub-027.jpg",
+          "./assets/hotel/studio-hub-031.jpg",
         ],
       },
     ],
@@ -166,7 +166,7 @@ const portfolioCategories = {
   cafe: {
     title: "Cafe",
     label: "Cafe Portfolio",
-    heroImage: "../extracted/images/studio-hub-034.jpg",
+    heroImage: "./assets/cafe/studio-hub-034.jpg",
     heroAlt: "Cafe interior by Studio Hub",
     heroText:
       "Cafe interiors developed around warm seating layouts, open views, and a relaxed social atmosphere.",
@@ -182,10 +182,10 @@ const portfolioCategories = {
         date: "2023",
         scope: ["Architectural Drawing", "Working Drawing"],
         images: [
-          "../extracted/images/studio-hub-033.jpg",
-          "../extracted/images/studio-hub-034.jpg",
-          "../extracted/images/studio-hub-035.jpg",
-          "../extracted/images/studio-hub-036.jpg",
+          "./assets/cafe/studio-hub-033.jpg",
+          "./assets/cafe/studio-hub-034.jpg",
+          "./assets/cafe/studio-hub-035.jpg",
+          "./assets/cafe/studio-hub-036.jpg",
         ],
       },
     ],
@@ -193,7 +193,7 @@ const portfolioCategories = {
   commercial: {
     title: "Commercial",
     label: "Commercial Portfolio",
-    heroImage: "../extracted/images/studio-hub-038.jpg",
+    heroImage: "./assets/commercial/studio-hub-038.jpg",
     heroAlt: "Commercial facade rendering by Studio Hub",
     heroText:
       "Commercial projects designed around street-facing presence, practical use, and a clear building identity.",
@@ -208,7 +208,7 @@ const portfolioCategories = {
         location: "Thankot",
         date: "2021",
         scope: ["Architectural Drawing", "Municipal Drawing", "Working Drawing"],
-        images: ["../extracted/images/studio-hub-038.jpg"],
+        images: ["./assets/commercial/studio-hub-038.jpg"],
       },
       {
         title: "Commercial",
@@ -217,8 +217,8 @@ const portfolioCategories = {
         date: "2023",
         scope: ["Construction and Supervision"],
         images: [
-          "../extracted/images/studio-hub-039.jpg",
-          "../extracted/images/studio-hub-040.jpg",
+          "./assets/commercial/studio-hub-039.jpg",
+          "./assets/commercial/studio-hub-040.jpg",
         ],
       },
     ],
@@ -226,7 +226,7 @@ const portfolioCategories = {
   interior: {
     title: "Interior",
     label: "Interior Portfolio",
-    heroImage: "../extracted/images/studio-hub-053.jpg",
+    heroImage: "./assets/interior/studio-hub-053.jpg",
     heroAlt: "Interior living room by Studio Hub",
     heroText:
       "Interior projects shaped through layout planning, material selection, detailing, and finished built spaces.",
@@ -242,9 +242,9 @@ const portfolioCategories = {
         date: "2023",
         scope: ["Construction Drawing", "Construction and Supervision"],
         images: [
-          "../extracted/images/studio-hub-042.jpg",
-          "../extracted/images/studio-hub-044.jpg",
-          "../extracted/images/studio-hub-045.jpg",
+          "./assets/interior/studio-hub-042.jpg",
+          "./assets/interior/studio-hub-044.jpg",
+          "./assets/interior/studio-hub-045.jpg",
         ],
       },
       {
@@ -254,8 +254,8 @@ const portfolioCategories = {
         date: "2023",
         scope: ["Construction and Supervision"],
         images: [
-          "../extracted/images/studio-hub-043.jpg",
-          "../extracted/images/studio-hub-046.jpg",
+          "./assets/interior/studio-hub-043.jpg",
+          "./assets/interior/studio-hub-046.jpg",
         ],
       },
       {
@@ -265,14 +265,14 @@ const portfolioCategories = {
         date: "2022",
         scope: ["Architectural Drawing", "Working Drawing"],
         images: [
-          "../extracted/images/studio-hub-049.jpg",
-          "../extracted/images/studio-hub-050.jpg",
-          "../extracted/images/studio-hub-051.jpg",
-          "../extracted/images/studio-hub-052.jpg",
-          "../extracted/images/studio-hub-053.jpg",
-          "../extracted/images/studio-hub-054.jpg",
-          "../extracted/images/studio-hub-055.jpg",
-          "../extracted/images/studio-hub-056.jpg",
+          "./assets/interior/studio-hub-049.jpg",
+          "./assets/interior/studio-hub-050.jpg",
+          "./assets/interior/studio-hub-051.jpg",
+          "./assets/interior/studio-hub-052.jpg",
+          "./assets/interior/studio-hub-053.jpg",
+          "./assets/interior/studio-hub-054.jpg",
+          "./assets/interior/studio-hub-055.jpg",
+          "./assets/interior/studio-hub-056.jpg",
         ],
       },
       {
@@ -281,7 +281,7 @@ const portfolioCategories = {
         location: "Baluwatar, Kathmandu",
         date: "2022",
         scope: ["Construction and Supervision"],
-        images: ["../extracted/images/studio-hub-057.jpg"],
+        images: ["./assets/interior/studio-hub-057.jpg"],
       },
       {
         title: "Interior Residence",
@@ -289,7 +289,7 @@ const portfolioCategories = {
         location: "Balkumari, Patan",
         date: "2023",
         scope: ["Construction and Supervision"],
-        images: ["../extracted/images/studio-hub-058.jpg"],
+        images: ["./assets/interior/studio-hub-058.jpg"],
       },
       {
         title: "Interior Residence",
@@ -298,13 +298,13 @@ const portfolioCategories = {
         date: "2023",
         scope: ["Construction and Supervision"],
         images: [
-          "../extracted/images/studio-hub-059.jpg",
-          "../extracted/images/studio-hub-060.jpg",
-          "../extracted/images/studio-hub-061.jpg",
-          "../extracted/images/studio-hub-062.jpg",
-          "../extracted/images/studio-hub-063.jpg",
-          "../extracted/images/studio-hub-064.jpg",
-          "../extracted/images/studio-hub-065.jpg",
+          "./assets/interior/studio-hub-059.jpg",
+          "./assets/interior/studio-hub-060.jpg",
+          "./assets/interior/studio-hub-061.jpg",
+          "./assets/interior/studio-hub-062.jpg",
+          "./assets/interior/studio-hub-063.jpg",
+          "./assets/interior/studio-hub-064.jpg",
+          "./assets/interior/studio-hub-065.jpg",
         ],
       },
       {
@@ -314,12 +314,12 @@ const portfolioCategories = {
         date: "2023",
         scope: ["Construction and Supervision"],
         images: [
-          "../extracted/images/studio-hub-067.jpg",
-          "../extracted/images/studio-hub-068.jpg",
-          "../extracted/images/studio-hub-069.jpg",
-          "../extracted/images/studio-hub-070.jpg",
-          "../extracted/images/studio-hub-071.jpg",
-          "../extracted/images/studio-hub-072.jpg",
+          "./assets/interior/studio-hub-067.jpg",
+          "./assets/interior/studio-hub-068.jpg",
+          "./assets/interior/studio-hub-069.jpg",
+          "./assets/interior/studio-hub-070.jpg",
+          "./assets/interior/studio-hub-071.jpg",
+          "./assets/interior/studio-hub-072.jpg",
         ],
       },
       {
@@ -329,13 +329,13 @@ const portfolioCategories = {
         date: "2023",
         scope: ["Construction and Supervision"],
         images: [
-          "../extracted/images/studio-hub-074.jpg",
-          "../extracted/images/studio-hub-075.jpg",
-          "../extracted/images/studio-hub-076.jpg",
-          "../extracted/images/studio-hub-077.jpg",
-          "../extracted/images/studio-hub-078.jpg",
-          "../extracted/images/studio-hub-079.jpg",
-          "../extracted/images/studio-hub-080.jpg",
+          "./assets/interior/studio-hub-074.jpg",
+          "./assets/interior/studio-hub-075.jpg",
+          "./assets/interior/studio-hub-076.jpg",
+          "./assets/interior/studio-hub-077.jpg",
+          "./assets/interior/studio-hub-078.jpg",
+          "./assets/interior/studio-hub-079.jpg",
+          "./assets/interior/studio-hub-080.jpg",
         ],
       },
     ],
@@ -343,7 +343,7 @@ const portfolioCategories = {
   outsourcing: {
     title: "Outsourcing",
     label: "Outsourcing Portfolio",
-    heroImage: "../extracted/images/studio-hub-082.jpg",
+    heroImage: "./assets/outsourcing/studio-hub-082.jpg",
     heroAlt: "Apartment modeling project by Studio Hub",
     heroText:
       "Outsourcing work focused on 3D modeling, construction documentation, and technical drawing production.",
@@ -359,10 +359,10 @@ const portfolioCategories = {
         date: "2022-2023",
         scope: ["As-Built Construction Drawing", "3d Views"],
         images: [
-          "../extracted/images/studio-hub-082.jpg",
-          "../extracted/images/studio-hub-084.jpg",
-          "../extracted/images/studio-hub-085.jpg",
-          "../extracted/images/studio-hub-086.jpg",
+          "./assets/outsourcing/studio-hub-082.jpg",
+          "./assets/outsourcing/studio-hub-084.jpg",
+          "./assets/outsourcing/studio-hub-085.jpg",
+          "./assets/outsourcing/studio-hub-086.jpg",
         ],
       },
       {
@@ -378,9 +378,9 @@ const portfolioCategories = {
           "2968 Matilda St, Roseville_Assisted Living conversion_Jamal",
         ],
         images: [
-          "../extracted/images/studio-hub-088.jpg",
-          "../extracted/images/studio-hub-089.jpg",
-          "../extracted/images/studio-hub-090.jpg",
+          "./assets/outsourcing/studio-hub-088.jpg",
+          "./assets/outsourcing/studio-hub-089.jpg",
+          "./assets/outsourcing/studio-hub-090.jpg",
         ],
       },
       {
@@ -396,9 +396,9 @@ const portfolioCategories = {
           "3326 Thomas Ave N_Twin Home",
         ],
         images: [
-          "../extracted/images/studio-hub-092.jpg",
-          "../extracted/images/studio-hub-093.jpg",
-          "../extracted/images/studio-hub-095.jpg",
+          "./assets/outsourcing/studio-hub-092.jpg",
+          "./assets/outsourcing/studio-hub-093.jpg",
+          "./assets/outsourcing/studio-hub-095.jpg",
         ],
       },
     ],

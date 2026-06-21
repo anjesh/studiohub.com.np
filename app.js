@@ -4,7 +4,7 @@ const categories = [
     count: 9,
     summary:
       "Private residential work across Kathmandu, Bhaktapur, Kirtipur, and Patan.",
-    image: "../extracted/images/studio-hub-021.jpg",
+    image: "./assets/residence/studio-hub-021.jpg",
     href: "./residence.html",
   },
   {
@@ -12,7 +12,7 @@ const categories = [
     count: 2,
     summary:
       "Hospitality projects combining exterior identity with interior spatial atmosphere.",
-    image: "../extracted/images/studio-hub-028.jpg",
+    image: "./assets/hotel/studio-hub-028.jpg",
     href: "./hotel.html",
   },
   {
@@ -20,7 +20,7 @@ const categories = [
     count: 1,
     summary:
       "Cafe interior work built around warm materials, daylight, and open seating rhythm.",
-    image: "../extracted/images/studio-hub-034.jpg",
+    image: "./assets/cafe/studio-hub-034.jpg",
     href: "./cafe.html",
   },
   {
@@ -28,7 +28,7 @@ const categories = [
     count: 2,
     summary:
       "Commercial facades and construction-focused work for urban retail and mixed-use settings.",
-    image: "../extracted/images/studio-hub-038.jpg",
+    image: "./assets/commercial/studio-hub-038.jpg",
     href: "./commercial.html",
   },
   {
@@ -36,7 +36,7 @@ const categories = [
     count: 8,
     summary:
       "Residential and turnkey interior projects balancing drawing packages with built execution.",
-    image: "../extracted/images/studio-hub-053.jpg",
+    image: "./assets/interior/studio-hub-053.jpg",
     href: "./interior.html",
   },
   {
@@ -44,7 +44,7 @@ const categories = [
     count: 3,
     summary:
       "As-built construction drawing and modeling work for international collaborators.",
-    image: "../extracted/images/studio-hub-082.jpg",
+    image: "./assets/outsourcing/studio-hub-082.jpg",
     href: "./outsourcing.html",
   },
 ];
