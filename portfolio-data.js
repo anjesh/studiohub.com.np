@@ -237,8 +237,8 @@ const portfolioCategories = {
   interior: {
     title: "Interior",
     label: "Interior Portfolio",
-    heroImage: "./assets/interior/studio-hub-053.jpg",
-    heroAlt: "Interior living room by Studio Hub",
+    heroImage: "./assets/interior/interior-dillibazar-hero.jpeg",
+    heroAlt: "Interior project in Dillibazar by Studio Hub",
     heroText:
       "Interior projects shaped through layout planning, material selection, detailing, and finished built spaces.",
     heroSupport:
@@ -353,6 +353,7 @@ const portfolioCategories = {
         date: "2026",
         scope: ["Interior Design", "Architectural Drawing", "Working Drawing"],
         images: [
+          "./assets/interior/interior-dillibazar-hero.jpeg",
           "./assets/interior/interior-dillibazar-01.jpg",
           "./assets/interior/interior-dillibazar-02.jpg",
           "./assets/interior/interior-dillibazar-03.jpg",
