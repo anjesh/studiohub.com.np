@@ -5,14 +5,12 @@ const category = categoryKey ? portfolioCategories[categoryKey] : null;
 if (pageShell && category) {
   document.title = `${category.title} | Studio Hub Consulting`;
 
-  const titleNode = document.querySelector("[data-category-title]");
   const heroLabelNode = document.querySelector("[data-category-label]");
   const heroTitleNode = document.querySelector("[data-category-hero-title]");
   const heroSupportNode = document.querySelector("[data-category-hero-support]");
   const heroImageNode = document.querySelector("[data-category-hero-image]");
   const projectsRoot = document.querySelector("[data-project-root]");
 
-  titleNode.textContent = category.title;
   heroLabelNode.textContent = category.label;
   heroTitleNode.textContent = category.heroText;
   heroSupportNode.textContent = category.heroSupport;

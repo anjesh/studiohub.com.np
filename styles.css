@@ -45,6 +45,18 @@ img {
   border-bottom: 1px solid var(--rule);
 }
 
+.brand-lockup {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  align-items: flex-start;
+}
+
+.brand-logo {
+  width: 110px;
+  height: auto;
+}
+
 .brand-lockup h1,
 .section-heading h2,
 .contact-band h2,
@@ -100,6 +112,7 @@ img {
 
 .nav-dropdown-trigger,
 .nav-dropdown-toggle,
+.header-meta > a,
 .nav-dropdown-menu a {
   text-transform: uppercase;
   letter-spacing: 0.16em;
