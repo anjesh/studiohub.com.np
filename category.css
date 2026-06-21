@@ -145,6 +145,23 @@
   min-height: 520px;
 }
 
+.about-section {
+  margin-top: 28px;
+  background: rgba(251, 248, 242, 0.8);
+  border: 1px solid rgba(31, 37, 32, 0.08);
+  box-shadow: var(--shadow);
+}
+
+.about-copy {
+  padding: 10px 28px 28px;
+}
+
+.about-copy p {
+  margin: 0 0 16px;
+  max-width: 86ch;
+  line-height: 1.75;
+}
+
 .project-stack {
   padding: 10px 28px 28px;
 }

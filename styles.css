@@ -102,8 +102,8 @@ img {
   display: flex;
   align-items: flex-start;
   gap: 16px;
-  flex-wrap: wrap;
-  max-width: 280px;
+  flex-wrap: nowrap;
+  max-width: none;
   padding-top: 8px;
   justify-content: flex-end;
 }
