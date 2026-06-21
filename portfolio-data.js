@@ -237,7 +237,7 @@ const portfolioCategories = {
   interior: {
     title: "Interior",
     label: "Interior Portfolio",
-    heroImage: "./assets/interior/interior-dillibazar-hero.jpeg",
+    heroImage: "./assets/interior/interior-dillibazar-02.jpg",
     heroAlt: "Interior project in Dillibazar by Studio Hub",
     heroText:
       "Interior projects shaped through layout planning, material selection, detailing, and finished built spaces.",
@@ -246,6 +246,26 @@ const portfolioCategories = {
     overview:
       "This category now combines design interiors and turnkey delivery work, so the popup gallery keeps the long page readable without discarding detail.",
     projects: [
+      {
+        title: "Interior Design",
+        client: "",
+        location: "Dillibazar, Kathmandu",
+        date: "2026",
+        scope: ["Interior Design", "Architectural Drawing", "Working Drawing"],
+        images: [
+          "./assets/interior/interior-dillibazar-hero.jpeg",
+          "./assets/interior/interior-dillibazar-01.jpg",
+          "./assets/interior/interior-dillibazar-02.jpg",
+          "./assets/interior/interior-dillibazar-03.jpg",
+          "./assets/interior/interior-dillibazar-04.jpg",
+          "./assets/interior/interior-dillibazar-05.jpg",
+          "./assets/interior/interior-dillibazar-06.jpg",
+          "./assets/interior/interior-dillibazar-07.jpg",
+          "./assets/interior/interior-dillibazar-08.jpg",
+          "./assets/interior/interior-dillibazar-09.jpg",
+          "./assets/interior/interior-dillibazar-10.jpg",
+        ],
+      },
       {
         title: "Interior Residence",
         client: "Ms. Biplavi Tripathi",
@@ -344,26 +364,6 @@ const portfolioCategories = {
           "./assets/interior/studio-hub-075.jpg",
           "./assets/interior/studio-hub-076.jpg",
           "./assets/interior/studio-hub-078.jpg",
-        ],
-      },
-      {
-        title: "Interior Design",
-        client: "",
-        location: "Dillibazar, Kathmandu",
-        date: "2026",
-        scope: ["Interior Design", "Architectural Drawing", "Working Drawing"],
-        images: [
-          "./assets/interior/interior-dillibazar-hero.jpeg",
-          "./assets/interior/interior-dillibazar-01.jpg",
-          "./assets/interior/interior-dillibazar-02.jpg",
-          "./assets/interior/interior-dillibazar-03.jpg",
-          "./assets/interior/interior-dillibazar-04.jpg",
-          "./assets/interior/interior-dillibazar-05.jpg",
-          "./assets/interior/interior-dillibazar-06.jpg",
-          "./assets/interior/interior-dillibazar-07.jpg",
-          "./assets/interior/interior-dillibazar-08.jpg",
-          "./assets/interior/interior-dillibazar-09.jpg",
-          "./assets/interior/interior-dillibazar-10.jpg",
         ],
       },
     ],
