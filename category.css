@@ -110,6 +110,25 @@
   line-height: 1.5;
 }
 
+.contact-social {
+  display: inline-flex;
+  align-items: center;
+  gap: 10px;
+  color: inherit;
+  text-decoration: none;
+}
+
+.contact-social svg {
+  width: 18px;
+  height: 18px;
+  fill: currentColor;
+}
+
+.contact-social:hover,
+.contact-social:focus-visible {
+  color: var(--accent);
+}
+
 .contact-map-card {
   padding: 0;
   overflow: hidden;
