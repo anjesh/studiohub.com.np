@@ -147,7 +147,6 @@ const portfolioCategories = {
           "./assets/hotel/studio-hub-026.jpg",
           "./assets/hotel/studio-hub-028.jpg",
           "./assets/hotel/studio-hub-029.jpg",
-          "./assets/hotel/studio-hub-030.jpg",
         ],
       },
       {
@@ -156,10 +155,7 @@ const portfolioCategories = {
         location: "Thamel, Kathmandu",
         date: "2017",
         scope: ["Architectural Drawing", "Working Drawing", "Municipal Drawing"],
-        images: [
-          "./assets/hotel/studio-hub-027.jpg",
-          "./assets/hotel/studio-hub-031.jpg",
-        ],
+        images: ["./assets/hotel/studio-hub-027.jpg"],
       },
     ],
   },
@@ -347,10 +343,7 @@ const portfolioCategories = {
           "./assets/interior/studio-hub-074.jpg",
           "./assets/interior/studio-hub-075.jpg",
           "./assets/interior/studio-hub-076.jpg",
-          "./assets/interior/studio-hub-077.jpg",
           "./assets/interior/studio-hub-078.jpg",
-          "./assets/interior/studio-hub-079.jpg",
-          "./assets/interior/studio-hub-080.jpg",
         ],
       },
       {
