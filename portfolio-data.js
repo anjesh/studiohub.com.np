@@ -312,7 +312,7 @@ const portfolioCategories = {
         client: "Young Innovation",
         location: "Lagankhel, Patan",
         date: "2023",
-        scope: ["Construction and Supervision"],
+        scope: ["Conceptual"],
         images: [
           "./assets/interior/studio-hub-067.jpg",
           "./assets/interior/studio-hub-068.jpg",

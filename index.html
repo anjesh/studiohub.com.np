@@ -15,12 +15,28 @@
       <header class="site-header">
         <div class="brand-lockup">
           <p class="eyebrow">Studio Hub Consulting</p>
-          <h1>Architecture and interior work presented as a visual archive.</h1>
         </div>
         <nav class="header-meta" aria-label="Studio summary">
-          <span>Kathmandu</span>
+          <div class="nav-dropdown">
+            <a class="nav-dropdown-trigger" href="#portfolio">Portfolio</a>
+            <button
+              class="nav-dropdown-toggle"
+              type="button"
+              aria-expanded="false"
+              aria-label="Toggle portfolio categories"
+            >
+              +
+            </button>
+            <div class="nav-dropdown-menu">
+              <a href="./residence.html">Residence</a>
+              <a href="./hotel.html">Hotel</a>
+              <a href="./cafe.html">Cafe</a>
+              <a href="./commercial.html">Commercial</a>
+              <a href="./interior.html">Interior</a>
+              <a href="./outsourcing.html">Outsourcing</a>
+            </div>
+          </div>
           <span>Since 2021</span>
-          <span>Portfolio 2024</span>
         </nav>
       </header>
 
@@ -29,13 +45,15 @@
           <div class="hero-copy">
             <p class="section-label">Portfolio</p>
             <h2 id="hero-title">
-              Architecture, engineering, interiors, and turnkey construction
-              shaped into residential, hospitality, commercial, and outsourcing
-              work.
+              Studio Hub Consulting delivers architecture, engineering, and
+              interior design through work that moves from concept to drawing
+              to execution.
             </h2>
             <p class="hero-text">
-              This first pass keeps the website close to the source portfolio:
-              project categories, project details, and imagery only.
+              From private residences and hospitality spaces to commercial
+              buildings and technical outsourcing work, the studio focuses on
+              practical design, clear spatial identity, and outcomes that can
+              be carried confidently into construction.
             </p>
             <ul class="service-list" aria-label="Services">
               <li>Architecture</li>
@@ -44,7 +62,6 @@
               <li>Turnkey Interior Execution</li>
             </ul>
           </div>
-
           <figure class="hero-media">
             <img
               src="./assets/interior/studio-hub-075.jpg"
@@ -53,7 +70,7 @@
           </figure>
         </section>
 
-        <section class="category-overview" aria-labelledby="category-title">
+        <section class="category-overview" id="portfolio" aria-labelledby="category-title">
           <div class="section-heading">
             <p class="section-label">Category Index</p>
             <h2 id="category-title">Project categories prepared for dedicated pages.</h2>
@@ -63,6 +80,7 @@
       </main>
     </div>
 
+    <script src="./nav.js"></script>
     <script src="./app.js"></script>
   </body>
 </html>
