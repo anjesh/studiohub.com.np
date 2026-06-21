@@ -31,7 +31,7 @@ const categories = [
     name: "Interior",
     summary:
       "Residential and turnkey interior projects balancing drawing packages with built execution.",
-    image: "./assets/interior/studio-hub-053.jpg",
+    image: "./assets/interior/interior-dillibazar-hero.jpeg",
     href: "./interior.html",
   },
   {
