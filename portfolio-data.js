@@ -1,0 +1,406 @@
+const portfolioCategories = {
+  residence: {
+    title: "Residence",
+    label: "Residential Portfolio",
+    heroImage: "../extracted/images/studio-hub-021.jpg",
+    heroAlt: "Residential facade by Studio Hub",
+    heroText:
+      "Residential spaces designed through facade studies, working drawings, and built-site coordination.",
+    heroSupport:
+      "The projects in this section range from compact urban houses to larger multi-storey residences, with a mix of rendered concepts and completed site photographs. Several of them also include municipal submissions, supervision, and exterior-interior coordination as part of the delivered work.",
+    overview:
+      "The gallery treatment favors intact compositions over rigid image boxes. Single-image projects stay quiet; larger projects expand into responsive supporting rows.",
+    projects: [
+      {
+        title: "Residence",
+        client: "Mr. Sudhir Maharjan",
+        location: "Kirtipur",
+        date: "2021",
+        scope: ["Architectural Drawing", "Municipal Drawing", "Working Drawing"],
+        images: ["../extracted/images/studio-hub-009.jpg"],
+      },
+      {
+        title: "Residence",
+        client: "Mr. Raja Babu Dangol",
+        location: "Bhaktapur",
+        date: "2021",
+        scope: ["Architectural Drawing", "Municipal Drawing", "Working Drawing"],
+        images: ["../extracted/images/studio-hub-007.jpg"],
+      },
+      {
+        title: "Residence",
+        client: "Mr. Dhan Gurung",
+        location: "Kapan, Budhanilkantha",
+        date: "2021",
+        scope: ["Architectural Drawing", "Municipal Drawing", "Working Drawing"],
+        images: [
+          "../extracted/images/studio-hub-006.jpg",
+          "../extracted/images/studio-hub-008.jpg",
+          "../extracted/images/studio-hub-010.jpg",
+        ],
+      },
+      {
+        title: "Residence",
+        client: "Mr. Sanam Gurung",
+        location: "Kapan, Budhanilkantha",
+        date: "2021",
+        scope: ["Architectural Drawing", "Municipal Drawing", "Working Drawing"],
+        images: [
+          "../extracted/images/studio-hub-013.jpg",
+          "../extracted/images/studio-hub-016.jpg",
+        ],
+      },
+      {
+        title: "Residence",
+        client: "Marvel Technolplast Pvt. Ltd.",
+        location: "Chundevi",
+        date: "2021",
+        scope: [
+          "Interior and Exterior",
+          "Architectural Drawing",
+          "Municipal Drawing",
+          "Working Drawing",
+        ],
+        images: [
+          "../extracted/images/studio-hub-012.jpg",
+          "../extracted/images/studio-hub-017.jpg",
+        ],
+      },
+      {
+        title: "Residence",
+        client: "Mr. Nischal Bahadur Singh",
+        location: "Budhanilkantha",
+        date: "2021",
+        scope: [
+          "Architectural Drawing",
+          "Municipal Drawing",
+          "Working Drawing",
+          "Complete Supervision",
+        ],
+        images: [
+          "../extracted/images/studio-hub-014.jpg",
+          "../extracted/images/studio-hub-015.jpg",
+        ],
+      },
+      {
+        title: "Residence",
+        client: "Mr. Bishow Bilash",
+        location: "Babarmahal, Kathmandu",
+        date: "2023",
+        scope: ["Construction and Supervision"],
+        images: ["../extracted/images/studio-hub-024.jpg"],
+      },
+      {
+        title: "Residence",
+        client: "Ms. Bandana Shrestha",
+        location: "Bhaktapur",
+        date: "2023",
+        scope: ["Architectural Drawing", "Working Drawing"],
+        images: [
+          "../extracted/images/studio-hub-019.jpg",
+          "../extracted/images/studio-hub-020.jpg",
+        ],
+      },
+      {
+        title: "Residence",
+        client: "Mr. Ranjan Shrestha",
+        location: "Sanepa, Patan",
+        date: "2024",
+        scope: [
+          "Architectural Drawing",
+          "Municipal Drawing",
+          "Working Drawing",
+          "Site Supervision",
+        ],
+        images: [
+          "../extracted/images/studio-hub-021.jpg",
+          "../extracted/images/studio-hub-022.jpg",
+          "../extracted/images/studio-hub-023.jpg",
+        ],
+      },
+    ],
+  },
+  hotel: {
+    title: "Hotel",
+    label: "Hospitality Portfolio",
+    heroImage: "../extracted/images/studio-hub-026.jpg",
+    heroAlt: "Hotel exterior by Studio Hub",
+    heroText:
+      "Hospitality projects shaped through exterior identity, lobby character, and guest-room atmosphere.",
+    heroSupport:
+      "These hotel projects bring together facade development, interior mood, and practical drawing work needed for execution. The portfolio shows both public-facing spaces and guest-focused interiors to reflect the full hospitality experience.",
+    overview:
+      "Hotel projects carry fewer entries but denser image sets, making the lightbox especially useful for interior review.",
+    projects: [
+      {
+        title: "Hotel",
+        client: "Mr. Raja Bahadur Dangol",
+        location: "Bhaktapur",
+        date: "2017",
+        scope: [
+          "Interior and Exterior",
+          "Architectural Drawing",
+          "Working Drawing",
+          "Municipal Drawing",
+        ],
+        images: [
+          "../extracted/images/studio-hub-026.jpg",
+          "../extracted/images/studio-hub-028.jpg",
+          "../extracted/images/studio-hub-029.jpg",
+          "../extracted/images/studio-hub-030.jpg",
+        ],
+      },
+      {
+        title: "Hotel",
+        client: "Mrs. Ranjana Tuladhar",
+        location: "Thamel, Kathmandu",
+        date: "2017",
+        scope: ["Architectural Drawing", "Working Drawing", "Municipal Drawing"],
+        images: [
+          "../extracted/images/studio-hub-027.jpg",
+          "../extracted/images/studio-hub-031.jpg",
+        ],
+      },
+    ],
+  },
+  cafe: {
+    title: "Cafe",
+    label: "Cafe Portfolio",
+    heroImage: "../extracted/images/studio-hub-034.jpg",
+    heroAlt: "Cafe interior by Studio Hub",
+    heroText:
+      "Cafe interiors developed around warm seating layouts, open views, and a relaxed social atmosphere.",
+    heroSupport:
+      "This project explores how planting, lighting, furniture, and double-height openness work together to shape the customer experience. The images focus on the dining environment and circulation through the space rather than decorative styling alone.",
+    overview:
+      "Short categories should feel deliberate rather than empty, so the layout keeps the project large and quiet on the page.",
+    projects: [
+      {
+        title: "Cafe",
+        client: "Ms. Rakshya Rana",
+        location: "Golfutar, Budhanilkantha",
+        date: "2023",
+        scope: ["Architectural Drawing", "Working Drawing"],
+        images: [
+          "../extracted/images/studio-hub-033.jpg",
+          "../extracted/images/studio-hub-034.jpg",
+          "../extracted/images/studio-hub-035.jpg",
+          "../extracted/images/studio-hub-036.jpg",
+        ],
+      },
+    ],
+  },
+  commercial: {
+    title: "Commercial",
+    label: "Commercial Portfolio",
+    heroImage: "../extracted/images/studio-hub-038.jpg",
+    heroAlt: "Commercial facade rendering by Studio Hub",
+    heroText:
+      "Commercial projects designed around street-facing presence, practical use, and a clear building identity.",
+    heroSupport:
+      "The work shown here includes facade concepts for retail and multi-storey commercial use, with attention to visibility, access, and day-to-day functionality. Alongside the design drawings, some projects also extend into construction and site supervision as part of delivery.",
+    overview:
+      "This category is a good example of how the same page system can handle both single-view and multi-view projects.",
+    projects: [
+      {
+        title: "Commercial",
+        client: "Mr. Bibek Silpakar",
+        location: "Thankot",
+        date: "2021",
+        scope: ["Architectural Drawing", "Municipal Drawing", "Working Drawing"],
+        images: ["../extracted/images/studio-hub-038.jpg"],
+      },
+      {
+        title: "Commercial",
+        client: "Mr. Punya Shakya",
+        location: "Chahamati, Kathmandu",
+        date: "2023",
+        scope: ["Construction and Supervision"],
+        images: [
+          "../extracted/images/studio-hub-039.jpg",
+          "../extracted/images/studio-hub-040.jpg",
+        ],
+      },
+    ],
+  },
+  interior: {
+    title: "Interior",
+    label: "Interior Portfolio",
+    heroImage: "../extracted/images/studio-hub-053.jpg",
+    heroAlt: "Interior living room by Studio Hub",
+    heroText:
+      "Interior projects shaped through layout planning, material selection, detailing, and finished built spaces.",
+    heroSupport:
+      "This section combines residential interiors and turnkey execution, covering bedrooms, living areas, dining spaces, storage, and office environments. The projects move from visual concepts to completed rooms, showing how the design intent was carried into final execution.",
+    overview:
+      "This category now combines design interiors and turnkey delivery work, so the popup gallery keeps the long page readable without discarding detail.",
+    projects: [
+      {
+        title: "Interior Residence",
+        client: "Ms. Biplavi Tripathi",
+        location: "Chaisipati, Lalitpur",
+        date: "2023",
+        scope: ["Construction Drawing", "Construction and Supervision"],
+        images: [
+          "../extracted/images/studio-hub-042.jpg",
+          "../extracted/images/studio-hub-044.jpg",
+          "../extracted/images/studio-hub-045.jpg",
+        ],
+      },
+      {
+        title: "Interior Residence",
+        client: "Ms. Rakshya Rana",
+        location: "Chapali, Kathmandu",
+        date: "2023",
+        scope: ["Construction and Supervision"],
+        images: [
+          "../extracted/images/studio-hub-043.jpg",
+          "../extracted/images/studio-hub-046.jpg",
+        ],
+      },
+      {
+        title: "Residence Interior",
+        client: "Marvel Technolplast Pvt. Ltd.",
+        location: "Chundevi",
+        date: "2022",
+        scope: ["Architectural Drawing", "Working Drawing"],
+        images: [
+          "../extracted/images/studio-hub-049.jpg",
+          "../extracted/images/studio-hub-050.jpg",
+          "../extracted/images/studio-hub-051.jpg",
+          "../extracted/images/studio-hub-052.jpg",
+          "../extracted/images/studio-hub-053.jpg",
+          "../extracted/images/studio-hub-054.jpg",
+          "../extracted/images/studio-hub-055.jpg",
+          "../extracted/images/studio-hub-056.jpg",
+        ],
+      },
+      {
+        title: "Interior Residence",
+        client: "Nisha Karki",
+        location: "Baluwatar, Kathmandu",
+        date: "2022",
+        scope: ["Construction and Supervision"],
+        images: ["../extracted/images/studio-hub-057.jpg"],
+      },
+      {
+        title: "Interior Residence",
+        client: "Ms. Rakshya Parajuli",
+        location: "Balkumari, Patan",
+        date: "2023",
+        scope: ["Construction and Supervision"],
+        images: ["../extracted/images/studio-hub-058.jpg"],
+      },
+      {
+        title: "Interior Residence",
+        client: "Mr. Bikram Sthapit",
+        location: "Kalanki, Kathmandu",
+        date: "2023",
+        scope: ["Construction and Supervision"],
+        images: [
+          "../extracted/images/studio-hub-059.jpg",
+          "../extracted/images/studio-hub-060.jpg",
+          "../extracted/images/studio-hub-061.jpg",
+          "../extracted/images/studio-hub-062.jpg",
+          "../extracted/images/studio-hub-063.jpg",
+          "../extracted/images/studio-hub-064.jpg",
+          "../extracted/images/studio-hub-065.jpg",
+        ],
+      },
+      {
+        title: "Interior Office",
+        client: "Young Innovation",
+        location: "Lagankhel, Patan",
+        date: "2023",
+        scope: ["Construction and Supervision"],
+        images: [
+          "../extracted/images/studio-hub-067.jpg",
+          "../extracted/images/studio-hub-068.jpg",
+          "../extracted/images/studio-hub-069.jpg",
+          "../extracted/images/studio-hub-070.jpg",
+          "../extracted/images/studio-hub-071.jpg",
+          "../extracted/images/studio-hub-072.jpg",
+        ],
+      },
+      {
+        title: "Interior Residence",
+        client: "Yuvika Shrestha",
+        location: "Tahachal, Kathmandu",
+        date: "2023",
+        scope: ["Construction and Supervision"],
+        images: [
+          "../extracted/images/studio-hub-074.jpg",
+          "../extracted/images/studio-hub-075.jpg",
+          "../extracted/images/studio-hub-076.jpg",
+          "../extracted/images/studio-hub-077.jpg",
+          "../extracted/images/studio-hub-078.jpg",
+          "../extracted/images/studio-hub-079.jpg",
+          "../extracted/images/studio-hub-080.jpg",
+        ],
+      },
+    ],
+  },
+  outsourcing: {
+    title: "Outsourcing",
+    label: "Outsourcing Portfolio",
+    heroImage: "../extracted/images/studio-hub-082.jpg",
+    heroAlt: "Apartment modeling project by Studio Hub",
+    heroText:
+      "Outsourcing work focused on 3D modeling, construction documentation, and technical drawing production.",
+    heroSupport:
+      "The projects in this category include apartment modeling, site-development studies, and drawing sheets prepared for international collaborators. Instead of lifestyle presentation, the emphasis here is on accuracy, documentation quality, and clear technical output.",
+    overview:
+      "For the Rays Designs work, the subproject list sits in the scope field so the individual drawing sheets stay connected to their grouped assignment.",
+    projects: [
+      {
+        title: "Modeling for Detail Estimation of Apartment Buildings and Site Development",
+        client: "MBNB Tech",
+        location: "Israel",
+        date: "2022-2023",
+        scope: ["As-Built Construction Drawing", "3d Views"],
+        images: [
+          "../extracted/images/studio-hub-082.jpg",
+          "../extracted/images/studio-hub-084.jpg",
+          "../extracted/images/studio-hub-085.jpg",
+          "../extracted/images/studio-hub-086.jpg",
+        ],
+      },
+      {
+        title: "Rays Designs Outsourcing Set 01",
+        client: "Rays Designs",
+        location: "United States",
+        date: "2022 - till date",
+        scope: [
+          "As-Built Construction Drawing",
+          "3d Views",
+          "510 Cedar Ave_Restaurant_CD",
+          "822 Palm Court East, Maplewood",
+          "2968 Matilda St, Roseville_Assisted Living conversion_Jamal",
+        ],
+        images: [
+          "../extracted/images/studio-hub-088.jpg",
+          "../extracted/images/studio-hub-089.jpg",
+          "../extracted/images/studio-hub-090.jpg",
+        ],
+      },
+      {
+        title: "Rays Designs Outsourcing Set 02",
+        client: "Rays Designs",
+        location: "United States",
+        date: "2022 - till date",
+        scope: [
+          "As-Built Construction Drawing",
+          "3d Views",
+          "7382 Upper 157th St W_Platinum Peaks Home Care_CD",
+          "5354 Pine Island Rd, Woodbury_Lisa Bloomer",
+          "3326 Thomas Ave N_Twin Home",
+        ],
+        images: [
+          "../extracted/images/studio-hub-092.jpg",
+          "../extracted/images/studio-hub-093.jpg",
+          "../extracted/images/studio-hub-095.jpg",
+        ],
+      },
+    ],
+  },
+};
