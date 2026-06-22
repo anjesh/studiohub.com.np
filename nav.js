@@ -50,3 +50,43 @@ document.querySelectorAll(".nav-dropdown").forEach((dropdown) => {
     }
   });
 });
+
+document.querySelectorAll("a[href]").forEach((link) => {
+  link.addEventListener("click", (event) => {
+    const href = link.getAttribute("href");
+
+    if (
+      !href ||
+      href.startsWith("#") ||
+      link.target === "_blank" ||
+      link.hasAttribute("download") ||
+      event.defaultPrevented ||
+      event.metaKey ||
+      event.ctrlKey ||
+      event.shiftKey ||
+      event.altKey
+    ) {
+      return;
+    }
+
+    const destination = new URL(link.href, window.location.href);
+
+    if (destination.origin !== window.location.origin) {
+      return;
+    }
+
+    if (
+      destination.pathname === window.location.pathname &&
+      destination.search === window.location.search &&
+      destination.hash
+    ) {
+      return;
+    }
+
+    event.preventDefault();
+    document.body.classList.add("page-is-leaving");
+    window.setTimeout(() => {
+      window.location.href = destination.href;
+    }, 180);
+  });
+});
