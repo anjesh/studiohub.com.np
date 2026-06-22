@@ -388,7 +388,6 @@ const portfolioCategories = {
         date: "2023 (completed)",
         scope: ["Interior Design", "Construction and Supervision"],
         images: [
-          "./assets/interior/studio-hub-074.jpg",
           "./assets/interior/studio-hub-075.jpg",
           "./assets/interior/studio-hub-076.jpg",
           "./assets/interior/studio-hub-078.jpg",
