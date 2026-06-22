@@ -22,6 +22,8 @@ if (pageShell && category) {
       ${category.projects
         .map((project, index) => {
           const [leadImage, ...galleryImages] = project.images;
+          const galleryGroup = `project-${index}`;
+          const galleryCaption = [project.title, project.location].filter(Boolean).join(", ");
           const galleryClass =
             galleryImages.length <= 2 ? "project-gallery compact" : "project-gallery";
           const metaItems = [
@@ -66,7 +68,15 @@ if (pageShell && category) {
                   <dl>${metaItems}</dl>
                 </div>
                 <figure class="project-lead">
-                  <img src="${leadImage}" alt="${project.title}" />
+                  <button
+                    class="project-thumb project-lead-trigger"
+                    type="button"
+                    data-full-src="${leadImage}"
+                    data-caption="${galleryCaption}"
+                    data-gallery-group="${galleryGroup}"
+                  >
+                    <img src="${leadImage}" alt="${project.title}" />
+                  </button>
                 </figure>
               </div>
               ${
@@ -81,7 +91,8 @@ if (pageShell && category) {
                                 class="project-thumb"
                                 type="button"
                                 data-full-src="${image}"
-                                data-caption="${project.title}, ${project.location}"
+                                data-caption="${galleryCaption}"
+                                data-gallery-group="${galleryGroup}"
                               >
                                 <img src="${image}" alt="${project.title} supporting view ${imageIndex + 1}" />
                               </button>
