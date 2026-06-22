@@ -58,6 +58,11 @@ if (pageShell && category) {
               <div class="project-intro">
                 <div class="project-meta">
                   <p class="section-label">Project ${String(index + 1).padStart(2, "0")}</p>
+                  ${
+                    project.description
+                      ? `<p class="project-description">${project.description}</p>`
+                      : ""
+                  }
                   <dl>${metaItems}</dl>
                 </div>
                 <figure class="project-lead">
