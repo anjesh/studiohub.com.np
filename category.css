@@ -301,14 +301,45 @@
   position: absolute;
   top: 12px;
   right: 12px;
-  width: 40px;
-  height: 40px;
-  border: 1px solid var(--rule);
-  background: var(--surface);
-  color: var(--text);
-  font-size: 1.2rem;
+  width: 44px;
+  height: 44px;
+  border: 1px solid rgba(31, 37, 32, 0.12);
+  border-radius: 999px;
+  background: rgba(251, 248, 242, 0.96);
+  color: transparent;
+  font-size: 0;
   line-height: 1;
   cursor: pointer;
+  box-shadow: 0 10px 24px rgba(19, 24, 21, 0.12);
+  transition: background-color 180ms ease, transform 180ms ease, box-shadow 180ms ease;
+}
+
+.lightbox-close::before,
+.lightbox-close::after {
+  content: "";
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  width: 18px;
+  height: 1.5px;
+  background: var(--text);
+  border-radius: 999px;
+  transform-origin: center;
+}
+
+.lightbox-close::before {
+  transform: translate(-50%, -50%) rotate(45deg);
+}
+
+.lightbox-close::after {
+  transform: translate(-50%, -50%) rotate(-45deg);
+}
+
+.lightbox-close:hover,
+.lightbox-close:focus-visible {
+  background: #fff;
+  box-shadow: 0 14px 28px rgba(19, 24, 21, 0.18);
+  transform: scale(1.03);
 }
 
 .lightbox-close:focus-visible {
