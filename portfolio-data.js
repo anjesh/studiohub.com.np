@@ -319,12 +319,9 @@ const portfolioCategories = {
         date: "2024 (completed)",
         scope: ["Interior Design", "Detail Drawing", "Construction and Supervision"],
         images: [
-          "./assets/interior/studio-hub-042.jpg",
-          "./assets/interior/studio-hub-044.jpg",
-          "./assets/interior/studio-hub-045.jpg",
+          "./assets/interior/interior-bijeshwori-03.jpg",
           "./assets/interior/interior-bijeshwori-01.jpg",
           "./assets/interior/interior-bijeshwori-02.jpg",
-          "./assets/interior/interior-bijeshwori-03.jpg",
         ],
       },
       {
@@ -338,21 +335,11 @@ const portfolioCategories = {
           "Construction and Supervision",
         ],
         images: [
-          "./assets/interior/studio-hub-043.jpg",
-          "./assets/interior/studio-hub-046.jpg",
           "./assets/interior/interior-chandol-04.jpg",
           "./assets/interior/interior-chandol-05.jpg",
           "./assets/interior/interior-chandol-06.jpg",
           "./assets/interior/interior-chandol-07.jpg",
         ],
-      },
-      {
-        title: "Interior Residence",
-        client: "Nisha Karki",
-        location: "Balkumari, Kathmandu",
-        date: "2023 (completed)",
-        scope: ["Interior Design", "Construction and Supervision"],
-        images: ["./assets/interior/studio-hub-057.jpg"],
       },
       {
         title: "Interior Residence",
