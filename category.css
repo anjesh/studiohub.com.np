@@ -61,7 +61,7 @@
 
 .category-hero-copy h2 {
   margin: 12px 0;
-  font-size: clamp(1.6rem, 2.6vw, 2.9rem);
+  font-size: clamp(1.3rem, 2.1vw, 2.3rem);
   line-height: 1.02;
 }
 
