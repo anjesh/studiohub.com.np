@@ -30,11 +30,11 @@ main,
 .site-header,
 .site-footer,
 .lightbox {
-  transition: opacity 180ms ease, transform 180ms ease;
+  transition: opacity 70ms ease, transform 70ms ease;
 }
 
 .page-shell {
-  animation: page-fade-in 220ms ease;
+  animation: page-fade-in 90ms ease;
 }
 
 body.page-is-leaving .site-header,

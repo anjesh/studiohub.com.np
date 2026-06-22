@@ -87,6 +87,6 @@ document.querySelectorAll("a[href]").forEach((link) => {
     document.body.classList.add("page-is-leaving");
     window.setTimeout(() => {
       window.location.href = destination.href;
-    }, 180);
+    }, 70);
   });
 });
